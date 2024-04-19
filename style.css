@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+}
+.header{
+
+padding-left: 50px;
+}
+.body{
+
+}
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 8px;
+    
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.intro{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+}
+.welcome{
+    font-size: 48px ;
+    color: #F9FAF8;
+    max-width: 900px;
+}
+.aspiring{
+    max-width: 600px;
+}
+button{
+    background-color:#3882F6 ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer{
+    margin-top: auto;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    
+}
+.testimonals{
+    display: flex;
+    font-style: oblique; 
+    gap: 6px;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.testimonals img{
+   width: 200px;
+   height: 200px;
+   border:3px solid #3882F6;
+   border-radius: 10px;
+}
+.qoute{
+    margin-top: 8px;
+    padding: 100px;
+    display: flex;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+
+}
+.action{
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 30px;
+    
+    
+    border-radius: 10px;
+}
+.cont{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+    
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    margin-top: 10px;
+    max-width: 250px;
+}
+.action button{
+    margin-left: 15px;
+    border: 3px rgb(121, 110, 110) solid;
+    background-color: #3169c4;
+}
